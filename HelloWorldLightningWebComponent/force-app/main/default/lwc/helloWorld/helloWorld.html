@@ -4,6 +4,9 @@
         <p>Hello, {greeting}!</p>
         <p>Welcome to my Playground.</p>
         <lightning-input label="Name" value={greeting} onchange={changeHandler}></lightning-input>
+        <br>
+        <h2>Você aceita os termos?</h2>
+        <lightning-input type="checkbox" label="Aceitar os termos" name="input1"></lightning-input>
       </div>
     </lightning-card>
   </template>
